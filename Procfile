@@ -1,2 +1,2 @@
-web: rake db:migrate:reset RAILS_ENV=production
+web: rake db:migrate:reset
 web: bundle exec rails server -p $PORT
