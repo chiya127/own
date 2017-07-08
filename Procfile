@@ -1,2 +1,1 @@
-web: rake db:migrate
-web: bundle exec rails s -p $PORT
+web: web: bundle exec rails server -p $PORT
