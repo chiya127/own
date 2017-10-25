@@ -1,5 +1,5 @@
-## 環境構築時のエラー対応
-### rmagickがインストールできない場合
+## 環境構築
+### 1.rmagickがインストールできない場合
 ```bash
 r_seem $ bundle install
 ..
@@ -21,7 +21,7 @@ brew link --force imagemagick@6
 brew install imagemagick@6
 brew link --force imagemagick@6
 ```
-### rails_erd の初期設定
+### 2.rails_erd の初期設定
 ```bash
 brew install graphviz
 ```
